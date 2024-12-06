@@ -14,8 +14,14 @@ Your task is to:
 To get started, refer to this guide:  
 [Getting Started with MACI](https://medium.com/@bbaraona/getting-started-with-maci-5cc145d00e04)  
 
-### Example Reference: WhitelistGatekeeper  
+---
+
+## 🛠️ Example Reference: WhitelistGatekeeper  
+
 For inspiration, you can check out the **WhitelistGatekeeper**, which implements a simple logic for managing voter access.  
 - After deploying the WhitelistGatekeeper, the deployer must call the `addToWhitelist` method to add addresses to the whitelist.
 
----
+### Additional Resources  
+Refer to the following documentation and contracts for more details on MACI Gatekeepers:  
+- [MACI Gatekeeper Contracts](https://github.com/privacy-scaling-explorations/maci/tree/dev/packages/contracts/contracts/gatekeepers)  
+- [MACI Gatekeeper Documentation](https://maci.pse.dev/docs/technical-references/smart-contracts/Gatekeepers)  
